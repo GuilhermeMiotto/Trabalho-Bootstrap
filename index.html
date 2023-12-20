@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pé na Areia</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./imagens/palmeira.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <a class="navbar-brand" href="#">
+            <img src="./imagens/palmeira.png" width="35" height="32" class="d-inline-block align-top" alt="Logo">
+            Pé na areia
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#pginicial">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre o site</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./cadastro.html" target="_blank">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html" target="_blank">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#redesocial">Redes Sociais</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- PERFIL -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 border border-3 profile-container">
+                <div class="text-center m-4">
+                    <img src="./imagens/unnamed(19).png" class="img-fluid profile-img" alt="Sua Foto de Perfil">
+                    <h5 class="mt-3 mb-0">Seu Nome</h5>
+                    <p class="text-muted">Descrição do perfil</p>
+                </div>
+                <div class="nav flex-column mt-3">
+                    <p  class="p-1">Já é membro? Faça seu login abaixo:</p>
+                    <a class="btn btn-primary btn-block mb-2" href="./login.html" target="">Faça Login!</a>
+                    <p class="p-1">Ainda não é membro? Registre-se abaixo:</p>
+                    <a class="btn btn-primary btn-block mb-2" href="./cadastro.html">Registre-se!</a>
+                    <button class="btn btn-primary btn-block">Configurações</button>
+                </div>
+            </div>
+
+            <!-- Conteúdo principal -->
+            <div id="pginicial" class="col-12 col-md-9 col-lg-10">
+                <div class="row">
+                    <div class="mx-auto col-md-6 purple-bg p-5 rounded mt-3 w-75 h-25">
+                        <h5 class="modal-title">Procure seu próximo destino abaixo...</h5>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar"
+                                aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-light mx-2">Buscar</button>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 mt-4">
+                                    <div class="d-flex justify-content-around">
+                                        <i class="bi bi-laptop text-dark fs-2"></i>
+                                        <i class="bi bi-briefcase text-dark fs-2"></i>
+                                        <i class="bi bi-building text-dark fs-2"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conteúdo secundario -->
+                <div class="row mt-4">
+                    <div class="col-md-8 mx-auto text-center">
+                        <h2 class="mb-4">Explore Destinos Incríveis</h2>
+                        <p class="lead">Descubra praias paradisíacas e lugares incríveis para suas próximas
+                            aventuras.</p>
+                        <img class="imgs" src="./imagens/pexels-asad-photo-maldives-1591379.jpg"
+                            class="img-fluid rounded" alt="Imagem de Destino">
+                        <p class="lead mt-4">Aproveite as ofertas especiais e viva experiências únicas à beira-mar.</p>
+                        <button class="btn btn-lg btn-primary mt-2">Ver Ofertas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sobre o site -->
+    <section class="container-fluid p-5 mt-5">
+        <article>
+            <div class="row m-0">
+                <div class="col-md-6 p-0">
+                    <img id="sobre" src="./imagens/pexels-asad-photo-maldives-1450355.jpg" class="img-fluid rounded"
+                        alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="p-5">
+                        <h2 class="display-4">Sobre o Site</h2>
+                        <p class="lead">Bem-vindo ao nosso site de viagens focado em destinos de praia. Navegue por
+                            imagens deslumbrantes, descubra novos lugares para relaxar e planeje suas próximas
+                            aventuras à beira-mar.</p>
+                        <p class="lead">De praias tropicais a refúgios tranquilos, oferecemos uma variedade de destinos
+                            paradisíacos para todos os amantes do sol e do mar.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid p-5 mt-4">
+        <article>
+            <div class="row m-0">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="p-5">
+                        <h2 class="display-4">O que preciso saber sobre o site?</h2>
+                        <p class="lead">Nosso site "Pé na areia" foi montado devido à necessidade de completar a
+                            atividade proposta na aula passada.</p>
+                        <p class="lead">Com a temática livre, aproveitamos para fazer uma página que aborda o assunto de
+                            algo que todos adoram no verão: praia e destinos de viagens em geral.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0">
+                    <img src="./imagens/pexels-jeremy-bishop-2765870.jpg" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="container-fluid p-5 mt-5">
+        <article>
+            <div class="row m-0">
+                <div class="col-md-5 p-3">
+                    <img src="./imagens/bootstrap-logo-shadow.png" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="p-5">
+                        <h2 class="display-4">Quais tecnologias foram usadas?</h2>
+                        <p class="lead">Dentre todas as tecnologias, a que está sendo usada neste momento é o Bootstrap,
+                            que está sendo estudado em nosso curso da G School. Por meio desta atividade, avaliaremos
+                            nosso conhecimento em Bootstrap.</p>
+                        <p class="lead">O Bootstrap é uma biblioteca de documentos CSS que ajuda a montar mais
+                            rapidamente o conteúdo visual da página, permitindo encontrar o que você procura e editá-lo
+                            conforme sua preferência e necessidade, sendo um grande auxílio para todos.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <div id="redesocial" class="social-icons">
+        <a href="https://www.instagram.com/guilhermemiotto_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=44998292620" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/guilherme-pedroso-9ab02827b" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+    </div>
+    <p class="textf">Website created by: <span>Guilherme Miotto Pedroso - G School</span> </p>
+    <script src="https://kit.fontawesome.com/f237fde641.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
